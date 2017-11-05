@@ -6,6 +6,18 @@ package com.example.marta.music_shop;
  */
 
 public class Piano extends Keyboard {
+    private int numberOfKeys;
+
+
+    public Piano(int numberOfKeys) {
+        this.numberOfKeys = numberOfKeys;
+    }
+
+
+    public int getNumberOfKeys() {
+        return this.numberOfKeys;
+    }
+
     @Override
     public String play() {
         return "Hitting the keys";
