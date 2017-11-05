@@ -22,7 +22,6 @@ public class Guitar extends StringInstrument {
     }
 
 
-    @Override
     public String play() {
         return "Creating vibrations";
     }

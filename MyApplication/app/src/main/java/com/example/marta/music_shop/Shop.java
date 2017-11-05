@@ -8,8 +8,6 @@ import java.util.ArrayList;
 
 public class Shop {
 
-
-
    public ArrayList<Sellable> stock;
 
 
@@ -22,11 +20,11 @@ public class Shop {
         return stock.size();
     }
 
-    public void add(Sellable item) {
+    public void addToStock(Sellable item) {
         stock.add(item);
     }
 
-    public void delete(Sellable item) {
+    public void deleteFromStock(Sellable item) {
         stock.remove(item);
     }
 
