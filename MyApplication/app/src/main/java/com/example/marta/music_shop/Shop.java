@@ -8,7 +8,27 @@ import java.util.ArrayList;
 
 public class Shop {
 
-    ArrayList<Sellable> stock;
+
+
+   public ArrayList<Sellable> stock;
+
+
+    public Shop() {
+        this.stock = new ArrayList<Sellable>();
+    }
+
+
+    public int stockSize() {
+        return stock.size();
+    }
+
+    public void add(Sellable item) {
+        stock.add(item);
+    }
+
+    public void delete(Sellable item) {
+        stock.remove(item);
+    }
 
 
 }
