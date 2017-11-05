@@ -13,4 +13,11 @@ public class MusicSheet extends Printed {
         this.title = title;
         this.composer = composer;
     }
+
+    public int calculateMarkUp() {
+        int markUp = sellPrice - buyPrice;
+        return markUp;
+    }
+
+
 }

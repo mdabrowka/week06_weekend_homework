@@ -10,4 +10,11 @@ public abstract class Printed extends Miscellaneous {
     public Printed(int buyPrice, int sellPrice) {
         super(buyPrice, sellPrice);
     }
+
+    public int calculateMarkUp() {
+        int markUp = sellPrice - buyPrice;
+        return markUp;
+    }
+
+
 }

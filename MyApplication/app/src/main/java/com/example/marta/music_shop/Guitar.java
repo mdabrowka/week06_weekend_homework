@@ -34,6 +34,7 @@ public class Guitar extends StringInstrument {
 
     @Override
     public int calculateMarkUp() {
-        return 0;
+        int markUp = sellPrice - buyPrice;
+        return markUp;
     }
 }

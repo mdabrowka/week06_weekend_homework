@@ -9,4 +9,10 @@ public abstract class Keyboard extends Instrument {
     public Keyboard(int buyPrice, int sellPrice) {
         super(buyPrice, sellPrice);
     }
+
+    public int calculateMarkUp() {
+        int markUp = sellPrice - buyPrice;
+        return markUp;
+    }
+
 }

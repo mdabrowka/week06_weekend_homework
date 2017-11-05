@@ -25,6 +25,8 @@ public class Trombone extends Brass {
 
     @Override
     public int calculateMarkUp() {
-        return 0;
+        int markUp = sellPrice - buyPrice;
+        return markUp;
     }
+    
 }

@@ -9,4 +9,10 @@ public abstract class Brass extends Instrument {
     public Brass(int buyPrice, int sellPrice) {
         super(buyPrice, sellPrice);
     }
+
+    public int calculateMarkUp() {
+        int markUp = sellPrice - buyPrice;
+        return markUp;
+    }
+
 }

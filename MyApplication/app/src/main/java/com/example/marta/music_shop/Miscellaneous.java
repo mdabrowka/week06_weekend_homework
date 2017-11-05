@@ -10,6 +10,10 @@ public abstract class Miscellaneous extends StockItem {
         super(buyPrice, sellPrice);
     }
 
+    public int calculateMarkUp() {
+        int markUp = sellPrice - buyPrice;
+        return markUp;
+    }
 
 
 }
