@@ -8,5 +8,9 @@ public class MusicSheet extends Printed {
     public String title;
     public String composer;
 
-
+    public MusicSheet(String title, String composer, int buyPrice, int sellPrice) {
+        super(buyPrice, sellPrice);
+        this.title = title;
+        this.composer = composer;
+    }
 }

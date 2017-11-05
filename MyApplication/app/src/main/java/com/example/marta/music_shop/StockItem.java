@@ -5,9 +5,13 @@ package com.example.marta.music_shop;
  */
 
 public abstract class StockItem implements Sellable{
-    private String description;
     private int buyPrice;
     private int sellPrice;
+
+    public StockItem(int buyPrice, int sellPrice) {
+        this.buyPrice = buyPrice;
+        this.sellPrice = sellPrice;
+    }
 
 
     @Override

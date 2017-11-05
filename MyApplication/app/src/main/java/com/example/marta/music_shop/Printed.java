@@ -5,4 +5,9 @@ package com.example.marta.music_shop;
  */
 
 public abstract class Printed extends Miscellaneous {
+
+
+    public Printed(int buyPrice, int sellPrice) {
+        super(buyPrice, sellPrice);
+    }
 }
