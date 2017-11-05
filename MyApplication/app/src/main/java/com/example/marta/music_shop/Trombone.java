@@ -9,7 +9,8 @@ package com.example.marta.music_shop;
 public class Trombone extends Brass {
     private String type;
 
-    public Trombone(String type) {
+    public Trombone(int buyPrice, int sellPrice, String type) {
+        super(buyPrice, sellPrice);
         this.type = type;
     }
 

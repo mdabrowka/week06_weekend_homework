@@ -11,7 +11,8 @@ public class Guitar extends StringInstrument {
     private String type;
 
 
-    public Guitar(int numberOfStrings, String type) {
+    public Guitar(int buyPrice, int sellPrice, int numberOfStrings, String type) {
+        super(buyPrice, sellPrice);
         this.numberOfStrings = numberOfStrings;
         this.type = type;
     }

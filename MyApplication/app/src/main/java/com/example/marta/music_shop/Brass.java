@@ -6,4 +6,7 @@ package com.example.marta.music_shop;
 
 public abstract class Brass extends Instrument {
 
+    public Brass(int buyPrice, int sellPrice) {
+        super(buyPrice, sellPrice);
+    }
 }

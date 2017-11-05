@@ -10,7 +10,8 @@ public class Piano extends Keyboard {
 
 
 
-    public Piano(int numberOfKeys) {
+    public Piano(int buyPrice, int sellPrice, int numberOfKeys) {
+        super(buyPrice, sellPrice);
         this.numberOfKeys = numberOfKeys;
     }
 

@@ -6,4 +6,7 @@ package com.example.marta.music_shop;
 
 public abstract class StringInstrument extends Instrument {
 
+    public StringInstrument(int buyPrice, int sellPrice) {
+        super(buyPrice, sellPrice);
+    }
 }

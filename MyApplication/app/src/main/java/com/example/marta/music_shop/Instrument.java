@@ -5,4 +5,7 @@ package com.example.marta.music_shop;
  */
 
 public abstract class Instrument extends StockItem implements Playable{
+    public Instrument(int buyPrice, int sellPrice) {
+        super(buyPrice, sellPrice);
+    }
 }
