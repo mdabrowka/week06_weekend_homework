@@ -9,4 +9,9 @@ public abstract class StockItem implements Sellable{
     private int buyPrice;
     private int sellPrice;
 
+
+    @Override
+    public int calculateMarkUp() {
+        return sellPrice - buyPrice;
+    }
 }
