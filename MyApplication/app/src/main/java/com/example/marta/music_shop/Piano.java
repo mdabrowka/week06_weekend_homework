@@ -22,4 +22,9 @@ public class Piano extends Keyboard {
     public String play() {
         return "Hitting the keys";
     }
+
+    @Override
+    public int calculateMarkUp() {
+        return 0;
+    }
 }

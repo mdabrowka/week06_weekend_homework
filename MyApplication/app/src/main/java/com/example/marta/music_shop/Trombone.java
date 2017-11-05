@@ -21,4 +21,9 @@ public class Trombone extends Brass {
     public String play() {
         return "Transforming the air into sound";
     }
+
+    @Override
+    public int calculateMarkUp() {
+        return 0;
+    }
 }
