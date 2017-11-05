@@ -16,7 +16,7 @@ public class TromboneTest {
 
     @Before
     public void before() {
-        trombone = new Trombone("bass");
+        trombone = new Trombone(300, 700, "bass");
     }
 
 

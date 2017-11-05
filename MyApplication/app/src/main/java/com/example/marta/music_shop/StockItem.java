@@ -13,7 +13,6 @@ public abstract class StockItem implements Sellable{
         this.sellPrice = sellPrice;
     }
 
-
     @Override
     public int calculateMarkUp() {
         return sellPrice - buyPrice;
